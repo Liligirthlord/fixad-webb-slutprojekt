@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="sv">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <link href="skibb.css" rel="stylesheet">
+      <title>formulär</title>
+      <link href="skibb.css" rel="stylesheet" type="text/css">
+   </head>
+   <body>
+      <div id="container" role="grid">
+         <header>
+            <h1>Formulär</h1>
+         </header>
+         <nav>
+            <ul class="länkar">
+               <li>
+                  <a href="index.html">Hem</a>
+               </li>
+               <li>
+                  <a href="blogg.html">Blogg</a>				
+               </li>
+               <li>
+                  <a href="tävlingar.html">Tävlingar</a>
+               </li>
+               <li>
+                  <a href="tot.html">Tips &#38; Tricks</a>
+               </li>
+               <li>
+                  <a href="omoss.html">Om oss</a>
+               </li>
+               <li>
+                  <a href="formulär.html">Vad tycker du om sidan?</a>				
+               </li>
+            </ul>
+         </nav>
+         <main>
+            <h2>Detta går fort!</h2>
+            <form action="tack.html" method="post">
+               <fieldset>
+                  <legend>Svara på dessa frågor?</legend>
+                  <p>
+                     <label for="Name">Namn:</label>
+                     <input type="text" name="fnamn" placeholder="Förnamn" id="Name">
+                  </p>
+                  <p>
+                     <label for="Gender">Kön:</label>
+                     <select name="minselect" id="Gender">
+                        <option value="1">Man</option>
+                        <option value="2">Kvinna</option>
+                        <option value="3">Annat</option>
+                     </select>
+                  </p>
+                  <p>
+                     <label for="email">Mail:</label>
+                     <input type="email" id="email" value="" name="email" required>
+                  </p>
+                  <p>
+                     <label for="Opinion">Vad tycker du om hemsidan?</label>
+                  </p>
+                  <p>
+                     <textarea rows="5" cols="50" id="Opinion" name="textbox"></textarea>
+                  </p>
+                  <p>
+                     Bästa skatemärket?
+                  </p>
+                  <p>
+                     <input type="checkbox" checked id="independent" name="checkbox"><label for="independent">Independent</label><br><input type="checkbox" id="thunder" name="checkbox"><label for="thunder">Thunder</label>
+                  </p>
+                  <p>
+                     <label for="färg">Favoritfärg:</label>
+                     <input type="color" id="färg" name="color">
+                  </p>
+                  <p>
+                     Skulle du rekommendera sidan?
+                  </p>
+                  <p>
+                     <input type="radio" name="radio" checked>Ja
+                     <br>
+                     <input type="radio" name="radio">Nej   
+                  </p>
+                  <p>
+                     <label for="bild">Bifoga bild:</label>
+                     <input type="file" id="bild" name="file">
+                  </p>
+                  <button type="submit" value="skicka">skicka</button>
+               </fieldset>
+            </form>
+         </main>
+         <aside></aside>
+         <footer>
+         </footer>
+      </div>
+   </body>
+</html>
