@@ -98,7 +98,7 @@ nav a {
 	font-size: 20px;
 	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	font-weight: bold;
-	color: #dff8e5;
+	color: #DFF8E5;
 	padding: 20px 25px;
 
 }
@@ -236,7 +236,6 @@ td:nth-child(even){
 		"footer footer footer "
 	}
 }
-@media only screen and (min-width:768px){
 #container1{
 	display: grid;
 	margin:0;
@@ -249,8 +248,8 @@ td:nth-child(even){
 		"sidebar main section"
 		"footer footer footer"
 	}
-}
-@media only screen and (min-width:768px){
+
+
 #container2{
 	display: grid;
 	margin:0;
@@ -264,8 +263,7 @@ td:nth-child(even){
 		"sidebar section section1 sidebar1"
 		"footer footer footer footer"
 	}
-}
-@media only screen and (min-width:768px){
+
 #container3{
 	display: grid;
 	margin:0;
@@ -279,8 +277,6 @@ td:nth-child(even){
 		"sidebar figure article figure1"
 		"footer footer footer footer"
 	}
-}
-@media only screen and (min-width:768px){
 #container4{
 	display: grid;
 	margin:0;
@@ -294,4 +290,3 @@ td:nth-child(even){
 		"sidebar article"
 		"footer footer"
 	}
-}
